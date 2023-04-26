@@ -53,16 +53,16 @@ global.mess = (type, m, options = {}) => {
 }
 global.options = {
 	public: true,
-	URI: "mongodb+srv://hisoka:<pwmu>@hisoka.xtav1oz.mongodb.net/?retryWrites=true&w=majority",
-	owner: ["6288292024190", "6285815663170"],
+	URI: "mongodb+srv://ZurrBot:<pwmu>@ZurrBot.xtav1oz.mongodb.net/?retryWrites=true&w=majority",
+	owner: ["6281211037493", "6281211037493"],
 	pathCommand: 'commands'
 }
 global.Exif = {
-	packId: "https://instagram.com/cak_haho",
-	packName: `Sticker ini Dibuat Oleh :\nhttps://instagram.com/cak_haho\n\nPada :\n${Function.tanggal(new Date())} Pukul ${Function.jam(new Date())} WIB\n\nOleh :\nDika Ardnt.`,
-	packPublish: "Dika Ardnt.",
-	packEmail: "dika.ardianta7@yahoo.com",
-	packWebsite: "https://instgaram.com/cak_haho",
+	packId: "https://instagram.com/zurrzxynnn",
+	packName: `Sticker ini Dibuat Oleh :\nhttps://instagram.com/zurrzxynnn\n\nPada :\n${Function.tanggal(new Date())} Pukul ${Function.jam(new Date())} WIB\n\nOleh :\nZurrGans.`,
+	packPublish: "ZurrGans.",
+	packEmail: "zxynnunit@gmail.com",
+	packWebsite: "https://instgaram.com/zurrzxynnn",
 	androidApp: "https://play.google.com/store/apps/details?id=com.bitsmedia.android.muslimpro",
 	iOSApp: "https://apps.apple.com/id/app/muslim-pro-al-quran-adzan/id388389451?|=id",
 	categories: ['😹', '😎', '😱'],
