@@ -3,7 +3,7 @@ export default {
     type: 'main',
     desc: "list harga sewa :D",
     aliases: ["buypremium", "donasi", "buyvip", "sewa", "sewabot","rent"],
-    execute: async ({ hisoka, m, command }) => {
+    execute: async ({ ZurrBot, m, command }) => {
         let text = `
 ${!/donate|donasi/i.test(command) ? `⭔ *Harga Premium :*
 
@@ -21,25 +21,25 @@ ${!/donate|donasi/i.test(command) ? `⭔ *Harga Premium :*
 
 Untuk Pembayaran Melalui Pulsa +5k / $ 0,40
 
-- Shopeepay : 088292024190
-- Dana : 088292024190
-- Saweria : https://saweria.co/DikaArdnt
-- Paypal : https://paypal.com/paypalme/Cakhaho
-- ko-fi : https://ko-fi.com/cak_haho
-- Pulsa : 088292024190
+- Shopeepay : 081211037493
+- Dana : 081211037493
+- Saweria : https://saweia.com/ZurrMD
+- Paypal : https://paypal.com/paypalme/ZurrZxynn
+- ko-fi : https://ko-fi.com/Zurrbot
+- Pulsa : https://github.com/DikaArdnt/Hisoka-Morou
 
 Jika kamu menyewa bot maka kamu akan mendapatkan akses premium selama masa penyewaan :p
 
-Untuk detail chat owner https://wa.me/6288292024190` : `Kalo mau Donasi kirim lewat sini aja :) :
+Untuk detail chat owner https://wa.me/6281211037493` : `Kalo mau Donasi kirim lewat sini aja :) :
 
-- Shopeepay : 088292024190
-- Dana : 088292024190
-- Saweria : https://saweria.co/DikaArdnt
-- Paypal : https://paypal.com/paypalme/Cakhaho
-- ko-fi : https://ko-fi.com/cak_haho
-- Pulsa : 088292024190
+- Shopeepay : 081211037493
+- Dana : 081211037493
+- Saweria : https://saweria.co/ZurrMD
+- Paypal : https://paypal.com/paypalme/ZurrZxynn
+- ko-fi : https://ko-fi.com/ZurrBot
+- Pulsa : 081211037493
 
-Minat Premium? https://wa.me/6288292024190?text=Min%20Info%20Premium`}
+Minat Premium? https://wa.me/6281211037493?text=Min%20Info%20Premium`}
         `
         hisoka.sendMessage(m.from, "./temp/qris-hisoka.jpeg", { quoted: m, caption: text })
     }
