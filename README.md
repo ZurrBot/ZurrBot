@@ -2,7 +2,7 @@
 
 <img width="500" src="https://dafunda.com/wp-content/uploads/2021/01/Karakter-Hunter-x-Hunter-Yang-Kuat-Menurut-Hisoka.jpg">
 
-<br> Hisoka Bot
+<br> Zurr Bot
  
  > This script is run using the whatsapp-web.js library and uses puppeteer
  
@@ -32,8 +32,8 @@ Add to PATH environment variable
 
 ## Install Script
 ```bash
-git clone https://github.com/DikaArdnt/Hisoka-Morou.git
-cd Hisoka-Morou
+git clone https://github.com/ZurrBot/ZurrBot
+cd ZurrBot
 npm install
 ```
 
@@ -50,5 +50,5 @@ node index.js
 
 
 ## Support
-* [`PayPal`](https://www.paypal.me/Cakhaho)
-* [`Saweria`](https://saweria.co/DikaArdnt)
+* [`PayPal`](https://www.paypal.me/ZurrZxynn)
+* [`Saweria`](https://saweria.co/ZurrMD)
