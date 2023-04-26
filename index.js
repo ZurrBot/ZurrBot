@@ -5,7 +5,7 @@ import { watchFile, unwatchFile } from 'fs'
 
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-console.log('Starting . . .')
+console.log('Starting Kont . . .')
 
 
 function start() {
@@ -13,7 +13,7 @@ function start() {
 	let p = spawn(process.argv[0], args, { stdio: ['inherit', 'inherit', 'inherit', 'ipc'] })
 	.on('message', data => {
 		if (data == 'reset') {
-			console.log('Restarting...')
+			console.log('Restarting Mek...')
 			p.kill()
 			start()
 		}
